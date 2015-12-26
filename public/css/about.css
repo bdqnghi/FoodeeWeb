@@ -1,0 +1,408 @@
+body {
+  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background: #F8F8F8;
+}
+
+a {
+  color: #01AAE4;
+}
+
+a:hover {
+  color: #888;
+}
+
+.link {
+  color: #01AAE4;
+}
+
+.link:hover {
+  color: #888;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content h2 a {
+  font-size: 18px;
+  font-weight: 400;
+  vertical-align: -webkit-baseline-middle;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 10px 0 20px;
+}
+
+p {
+  line-height: 1.75;
+  margin: 0 0 15px;
+}
+
+hr {
+  border-width: 1px 0;
+  margin: 25px 0 25px;
+  border-color: #D9D9D9;
+}
+
+.middle {
+  vertical-align:middle;
+  line-height: normal;
+}
+
+.navbar-default {
+  border-color: #ddd;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-bottom: 10px;
+  background: #fff;
+  height: 60px;
+}
+
+.navbar-default.with-background {
+  background: white;
+  border: none;
+}
+
+.navbar-brand .title {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+.navbar .icon img {
+  height: 30px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.navbar .download {
+  height: 50px;
+  margin-top: 15px;
+  left:50%;
+  margin-left:-85px;
+  position:absolute;
+}
+
+.navbar .download .icon img {
+  height: 25px;
+  margin: 0 20px;
+}
+
+.navbar .contact li {
+  display: inline-block;
+}
+
+.navbar .contact .icon {
+  padding-left: 15px;
+  border: none;
+}
+
+.navbar-header::after {
+  clear:none;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-nav .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#header-background {
+  height: 300px;
+  position: relative;
+  margin-bottom: -30px;
+  margin-top: -60px;
+  z-index: -1;
+}
+
+#header-background .pull-quote {
+  padding-top: 75px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+#header-background .pull-quote a {
+  color: black;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#header-background .pull-quote a .source {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.page {
+  padding: 15px 15px 30px;
+  min-height: 500px;
+}
+
+.page.with-background {
+  background: #FAFAFA;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: -10px;
+  margin-right: -10px;
+  border-top-right-radius: 6pt;
+  border-top-left-radius: 6pt;
+}
+
+@media (max-width: 750px) { 
+  
+  .page, .page.with-background {
+    padding: 10px 15px 30px;
+    margin: 0;
+    border-radius: 0;
+    min-height: none;
+  }
+  
+  #header-background {
+    height: 220px;
+    margin-bottom: 0;
+  }
+  
+  #header-background .pull-quote {
+    padding-top: 70px;
+  }
+  
+  .navbar .navbar-nav.contact {
+    margin-top: 5px;
+  }
+}
+
+.container {
+  max-width: 750px;
+}
+
+.title-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title-icon img {
+  height: 36px;
+}
+
+.title-icon-label {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.share-boxes, .share-buttons-bottom  {
+  line-height: 0.6;
+  padding: 20px 0 10px;
+}
+
+.share-boxes .fb-like, .share-boxes .twitter-tweet-button {
+  margin-right: 10px;
+}
+
+.tags {
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.tags .tag {
+  display: inline;
+  list-style-type: none;
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.tags .tag a {
+  font-weight: 300;
+  color: #878787 !important;
+}
+
+.article p img {
+  max-width: 100%;
+}
+
+.reengagement .picture {
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.reengagement .picture img {
+  position: relative;
+  width: 100%;
+}
+
+.reengagement .title {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0 0 10px;
+}
+
+.team {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.team ul {
+  padding: 0;
+  text-align: center;
+  margin-right:-15px;
+}
+
+.team .member {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  vertical-align: top;
+  font-size: 12px;
+  max-width: 143px;
+  line-height: 1;
+}
+
+.team .member .name {
+  font-weight: 600;
+  padding: 5px 0 0;
+}
+
+.team .member img {
+  border-radius: 5px;
+  display: inline;
+  list-style-type: none;
+}
+
+.stories ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.stories .story a {
+  color: #333;
+  line-height: 1.75;
+  text-decoration: none;
+}
+
+.stories .story .author {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stories .story .date {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.stories .story img {
+  width: 100%;
+  max-height: 200px;
+  margin: 15px 0;
+}
+
+.stories .story .more {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stories .story .more:hover {
+  text-decoration: underline;
+}
+
+.press .stories .story h2 {
+  margin: 0 0 5px;
+}
+
+.press .stories .story .source {
+  font-size: 14px;
+  font-weight: 300;
+  color: #878787;
+}
+
+.press .stories .story .image {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.press .stories .story .image img {
+  width: initial;
+  margin: 0 0 15px;
+  vertical-align: middle;
+}
+
+.pagination {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pagination a {
+  text-decoration: none !important; 
+}
+
+.footer {
+  background-color: #eaeff6;
+  width: 100%;
+  margin: 0;
+}
+
+.footer .about {
+  border-top: 1px solid #e6e6e6;
+  background: #f0f0f0;
+  padding: 30px 0;
+}
+
+.footer .about .title-icon {
+  vertical-align:middle;
+}
+
+.footer .about .title-icon-label {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer .about .detail {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.footer .section {
+  margin-bottom: 20px;
+}
+
+.footer .links {
+  border-top: 1px solid #ccc;
+  padding: 10px 0 80px;
+}
+
+.footer .links nav a, .footer .links nav button {
+  font-size: 13px;
+  line-height: 3;
+  font-weight: 400;
+  padding-right: 25px;
+  text-transform: uppercase;
+  color: black;
+}

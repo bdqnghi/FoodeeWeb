@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" ng-app="hopper" device-detector hop-device-detected>
+  <head>
+    <meta charset="utf-8">
+    <meta content="en_US" http-equiv="Content-Language">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Hopper - When to Fly and Buy</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="wrapper container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-push-6">
+          <div>
+            <ul class="nav nav-home nav-pills">
+              <li ><a href="about.html">About</a></li>
+              <li class="hidden-xs"><a href="#"><img src="images/app-store-icon.ac24d9a4.png"></a></li>
+              <li class="hidden-xs"><a href="#"><img src="images/google-play-icon.a558c2ff.png"></a></li>
+             
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu">
+                  <li ><a href="#">Product Updates</a></li>
+                  <li ><a href="#">Travel Tips</a></li>
+                  <li ><a href="#">Insights</a></li>
+                  <li ><a href="#">Research</a></li>
+                </ul>
+              </li>
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                <ul class="dropdown-menu">
+                  <li ><a href="#">Support</a></li>
+                  <li ><a href="#">Press</a></li>
+                  <li ><a href="#">Jobs</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="logo"></div>
+            <div class="headsup">
+              <h3>Know when to fly and buy.<br/>Score the lowest fares.</h3>
+            </div>
+            <div class="text-me-the-app-yo">
+              <h4>Text me a link to the app:</h4>
+              <form class="form-inline" name="textMe" ng-controller="HopSendLinkCtrl">
+                <div class="form-group has-feedback">
+                  <div class="input-group">
+                    <input class="form-control" type="text" name="phone" ng-model="phone" required placeholder="Your phone number" hop-phone-number>
+                    <span class="icon-spin glyphicon glyphicon-refresh form-control-feedback ng-hide" ng-show="submitting" aria-hidden="true"></span>
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary">Send</button>
+                    </span>
+                  </div>
+                </div>
+                <p class="text-danger ng-hide" ng-show="submitted && !isSuccess">Uh oh, that didn’t work. Try again.</p>
+                <p class="text-success ng-hide" ng-show="submitted && isSuccess">Done! Your text link is on its way.</p>
+              </form>
+            </div>
+            <div class="store-badges">
+              <a class="store-badge app-store" href="#" target="_blank">
+                <img class="app-store-badge" src="images/app-store-badge.4b9e0f2f.png">
+              </a>
+              <a class="store-badge google-play" href="#" target="_blank">
+                <img src="images/google-play-badge.50ad50f9.png">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-5 col-md-pull-6">
+          <div class="phone-splash">
+            <div class="screen">
+              <video style="widows: 100%; height: 100%" controls autoplay>
+                <source src="images/ios-book.283617e9.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav hop-appear class="navbar navbar-fixed-bottom footer ng-hide" ng-show="ready">
+        <div class="footer-content">
+          <img class="app-store-best-of-2015-badge" src="/static2/w2/images/app-store-best-of-2015-badge.248f0565.png"></img>
+          <p class=footer-text>
+            Apple just named Hopper the best travel app of 2015.<br/>
+            <a href="#" target="_blank">Download it now.</a>
+          </p>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script src="/static2/w2/scripts/vendor.7b4f50b9.js"></script>
+
+    <script src="/static2/w2/scripts/main.39846140.js"></script>
+  </body>
+</html>
