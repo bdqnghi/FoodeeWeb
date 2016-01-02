@@ -7842,7 +7842,7 @@
 }
 	body
 {
-	background:url(../images/background-food-2.jpg) repeat center center fixed;
+	background:url(../images/background.jpg) repeat center center fixed;
 	background-size:cover;
 	background-position:center bottom
 }
@@ -7895,6 +7895,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center
+	color: "black";
 }
 
 }
